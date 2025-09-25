@@ -15,23 +15,6 @@ Dataset URL: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumo
 
 The notebook outlines a complete workflow for a deep learning classification task, covering the following key steps:
 
-Chest X-Ray Image Analysis: Pneumonia Detection
-This repository contains the Jupyter Notebook and necessary files for a machine learning assignment focused on classifying chest X-ray images to detect pneumonia.
-
-Project Objective
-
-The main objective of this project is to develop and evaluate a deep learning model capable of accurately distinguishing between normal and pneumonia-affected chest X-ray images.
-
-Dataset
-
-The analysis uses the Chest X-Ray Images (Pneumonia) dataset, available on Kaggle. It contains a large collection of X-ray images categorized as either NORMAL or PNEUMONIA.
-
-Dataset URL: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
-
-## Methodology
-
-The notebook outlines a complete workflow for a deep learning classification task, covering the following key steps:
-
 1) Data Loading and Initial Inspection: Loading the image data and performing an initial check to understand the distribution and characteristics of the images.
 
 2) Preprocessing: The notebook addresses the challenge of a highly imbalanced dataset and explains the preprocessing choices, including resizing images and normalizing pixel values. It also mentions a better data splitting strategy using stratify to ensure the same imbalance ratio across all splits.
